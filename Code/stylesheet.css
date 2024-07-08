@@ -1,3 +1,10 @@
+body {
+    background-color: #dbdbdb;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
 .mainTitle {
     display: flex;
     justify-content: center;
@@ -9,6 +16,10 @@
     text-shadow: 5px 5px 7px rgba(0, 0, 0, 1);
     font-size: 26px;
     padding: 10px;
+}
+
+.upper-shadow-Cont {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 img {
@@ -37,10 +48,12 @@ p {
     height: 20px;
     width: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
+    flex-direction: row;
     align-items: center;
     text-align: right;
     padding: 20px;
+    gap: 20px;
 }
 
 .upper-bar-cont {
@@ -70,18 +83,33 @@ p {
     flex-wrap: wrap;
     width: 220px;
     margin-bottom: 30px;
+
+    background-color: #999999;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.userInfoCont-row {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
 }
 
 .userInfoCont {
     display: flex;
+    align-items: center;
     justify-content: space-evenly;
-    align-items: flex-start;
+    align-items: center;
     text-align: center;
     flex-direction: row;
     flex-wrap: wrap;
     width: 300px;
     height: 200px;
     background-color: #757575;
+    border-radius: 5px;
 }
 
 .linkBoxCont {
@@ -94,5 +122,28 @@ p {
     padding: 10px;
     border-radius: 5px;
     color: black;
-    border: 1px solid #ccc;
+}
+
+.movie-details {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details th, .movie-details td {
+    border: 1px solid #dddddd;
+    background-color: #f2f2f2;
+    padding: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-details th {
+    background-color: #f2f2f2;
+    text-align: left;
+    width: 150px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
