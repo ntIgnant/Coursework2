@@ -23,38 +23,30 @@ p {
     background-color: #424242; 
     color: rgb(199, 199, 199);
     height: 100px;
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: left;
-    padding: 20px;
+    padding: 10px;
 }
 
 .sec-upper-bar {
     background-color: #757575; 
     color: rgb(199, 199, 199);
-    height: 30px;
-    width: 100%;
+    height: 20px;
+    width: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    text-align: left;
+    text-align: right;
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 .upper-bar-cont {
     display: flex;
     justify-content: start;
-    text-align: left;
     flex-direction: column;
-}
-
-.side-column {
-    width: 300px;
-    background-color: #757575;
-    padding: 20px;
 }
 
 .posterCont {
@@ -78,4 +70,29 @@ p {
     flex-wrap: wrap;
     width: 220px;
     margin-bottom: 30px;
+}
+
+.userInfoCont {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+    background-color: #757575;
+}
+
+.linkBoxCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 217, 0);
+    width: 100px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    border: 1px solid #ccc;
 }
