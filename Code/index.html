@@ -8,18 +8,16 @@
     <link rel="stylesheet" href="normalize.css">
 </head>
 <body>
+    <div class="sec-upper-bar">
+            <h3>More text here</h3>
+        </div>
     <div class="upper-bar-cont">
         <div class="upper-bar">
             <div class="mainTitle">
                 <h1>Movie Recommendation</h1>
             </div>
         </div>
-        <div class="sec-upper-bar">
-            <h2>More text here</h2>
-        </div>
     </div>
-    
-
     <div class="posterCont">
         <div class="posterInfo">
             <img src="resources_html/interestellar.png" alt="Interstellar Image" width="220" height="300">
@@ -30,6 +28,9 @@
                 <li>Info</li>
                 <li>Here</li>
             </ul>
+            <div class="linkBoxCont">
+                <h4><a href="https://youtu.be/2LqzF5WauAw?si=i4YvAXetSy_tCAyF" target="_blank">Movie Trailer</a></h4>
+            </div>
         </div>
         <div class="posterInfo">
             <img src="resources_html/matrix.png" alt="The Matrix Image" width="220" height="300">
@@ -40,6 +41,7 @@
                 <li>Info</li>
                 <li>Here</li>
             </ul>
+            <h4><a href="https://youtu.be/vKQi3bBA1y8?si=1CUIOqwHwzM8DxK9" target="_blank">Movie Trailer</a></h4>
         </div>
         <div class="posterInfo">
             <img src="resources_html/bladerunner.png" alt="Blade Runner 2049 Image" width="220" height="300">
@@ -50,6 +52,7 @@
                 <li>Info</li>
                 <li>Here</li>
             </ul>
+            <h4><a href="https://youtu.be/gCcx85zbxz4?si=NFZ_E2xbjMhALUtH" target="_blank">Movie Trailer</a></h4>
         </div>
     </div>
 
@@ -63,6 +66,7 @@
                 <li>Info</li>
                 <li>Here</li>
             </ul>
+            <h4><a href="https://youtu.be/mqqft2x_Aa4?si=iwvk00ksEw3qBKiD" target="_blank">Movie Trailer</a></h4>
         </div>
         <div class="posterInfo">
             <img src="resources_html/rocky.png" alt="Rocky Image" width="220" height="300">
@@ -72,7 +76,8 @@
                 <li>Some</li>
                 <li>Info</li>
                 <li>Here</li>
-            </ul>    
+            </ul>
+            <h4><a href="https://youtu.be/3VUblDwa648?si=89QwysM70oB8PrWn" target="_blank">Movie Trailer</a></h4>    
         </div>
         <div class="posterInfo">
             <img src="resources_html/pacificrim.png" alt="Pacific Rim Image" width="220" height="300">
@@ -82,25 +87,26 @@
                 <li>Some</li>
                 <li>Info</li>
                 <li>Here</li>
-            </ul>   
+            </ul>
+            <h4><a href="https://youtu.be/5guMumPFBag?si=MRgAOds_YEDXQpUm" target="_blank">MMovie Trailer</a></h4>   
         </div>
     </div>
-    <div class="side-column">
-        <h3>Side Column</h3>
-        <p>Content goes here...</p>
-
-        <!-- Comment Section -->
-        <section class="comments">
-            <h3>Comments</h3>
-            <div class="comment">
-                <p><strong>John Doe</strong>: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <div class="userInfoCont">
+        <form action="" method="get" class="User Data">
+            <div class="User Data">
+                <label for="name">Enter your Name here:</label>
+                <input type="text" name="name" id="name" required/>
+            </div>  
+            <div class="form-example">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email" required />
             </div>
-            <div class="comment">
-                <p><strong>Jane Smith</strong>: Nulla facilisi. Integer at ex quis erat tempus lacinia.</p>
-            </div>
-            <!-- Add more comments as needed -->
-        </section>
+            <div class="form-example">
+                <input type="submit" value="Send" />
+            </div> 
+        </form> 
     </div>
+    
 
     <script src="script.js"></script>
 </body>
