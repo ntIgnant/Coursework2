@@ -74,80 +74,8 @@ p {
     justify-content: left;
     align-items: flex-start;
     text-align: left;
-<<<<<<< HEAD
-    border-radius: 8px;
-    width: 400px;
-}
-
-.movie img {
-    width: 140px;
-    height: 200px;
-    margin-right: 20px;
-    border-radius: 8px;
-}
-
-.movie-text {
-    flex: 1;
-}
-
-.movie h4 {
-    font-size: 18px;
-    margin-bottom: 5px;
-    color: #6643b5;
-}
-
-.movie p {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 10px;
-}
-
-.feedback {
-    background-color: #430f58;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
-}
-
-.feedback h2 {
-    font-size: 32px;
-    margin-bottom: 10px;
-}
-
-.feedback p {
-    font-size: 18px;
-}
-
-.feedback form {
-    margin-top: 20px;
-}
-
-.feedback textarea {
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    font-size: 14px;
-    resize: none;
-}
-
-.feedback button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #8594e4;
-    color: white;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.feedback button:hover {
-    background-color: #111112;
-=======
     flex-direction: column;
     flex-wrap: wrap;
     width: 220px;
     margin-bottom: 30px;
->>>>>>> 0f4b0cc1607f9a0dc9fbb8fb3547d08d9a40ae27
 }
