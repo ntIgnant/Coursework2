@@ -1,200 +1,288 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Recommendation</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="normalize.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="normalize.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <div class="upper-shadow-Cont">
-        <div class="sec-upper-bar">
-            <h3>About</h3>
-            <h3>Contact</h3>
-            <h3>Privacy</h3>
+      <div class="sec-upper-bar">
+        <div class="copyInfo"></div>
+        <h3>About</h3>
+        <h3>Contact</h3>
+        <h3>Privacy</h3>
+      </div>
+      <div class="upper-bar-cont">
+        <div class="upper-bar">
+          <div class="MainTitle">
+            <h1>Movie Recommendation</h1>
+          </div>
         </div>
-        <div class="upper-bar-cont">
-            <div class="upper-bar">
-                <div class="MainTitle">
-                    <h1>Movie Recommendation</h1>
-                </div>
-            </div>
-        </div>
+      </div>
     </div>
 
     <div class="posterCont">
-        <div class="posterInfo">
-            <img src="resources_html/interestellar.png" alt="Interstellar Image" width="280" height="360">
-            <h3>Interstellar</h3>
-            <p>Astronauts travel through a wormhole in search of a new habitable planet to save humanity.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>2014-11-5</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>Christopher Nolan</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Matthew McConaughey, Anne Hathaway, Jessica Chastain</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/2LqzF5WauAw?si=i4YvAXetSy_tCAyF" target="_blank">Trailer</a></h4>
-            </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/interestellar.png"
+          alt="Interstellar Image"
+          width="280"
+          height="360"
+        />
+        <h3>Interstellar</h3>
+        <p>
+          Astronauts travel through a wormhole in search of a new habitable
+          planet to save humanity.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>2014-11-5</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>Christopher Nolan</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>Matthew McConaughey, Anne Hathaway, Jessica Chastain</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/2LqzF5WauAw?si=i4YvAXetSy_tCAyF"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
-        <div class="posterInfo">
-            <img src="resources_html/matrix.png" alt="The Matrix Image" width="280" height="360">
-            <h3>The Matrix</h3>
-            <p>A computer hacker learns about the true nature of reality and rebels against the machines enslaving humanity.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>1999-3-31</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>The Wachowskis</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Keanu Reeves, Laurence Fishburne, Carrie Moss, Hugo Weaving</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/vKQi3bBA1y8?si=1CUIOqwHwzM8DxK9" target="_blank">Trailer</a></h4>
-            </div>
+      </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/matrix.png"
+          alt="The Matrix Image"
+          width="280"
+          height="360"
+        />
+        <h3>The Matrix</h3>
+        <p>
+          A computer hacker learns about the true nature of reality and rebels
+          against the machines enslaving humanity.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>1999-3-31</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>The Wachowskis</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>
+                Keanu Reeves, Laurence Fishburne, Carrie Moss, Hugo Weaving
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/vKQi3bBA1y8?si=1CUIOqwHwzM8DxK9"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
-        <div class="posterInfo">
-            <img src="resources_html/bladerunner.png" alt="Blade Runner 2049 Image" width="280" height="360">
-            <h3>Blade Runner 2049</h3>
-            <p>A replicant blade runner discovers a secret that could plunge what’s left of society into chaos.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>2017-10-3</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>Denis Villeneuve</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/gCcx85zbxz4?si=NFZ_E2xbjMhALUtH" target="_blank">Trailer</a></h4>
-            </div>
+      </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/bladerunner.png"
+          alt="Blade Runner 2049 Image"
+          width="280"
+          height="360"
+        />
+        <h3>Blade Runner 2049</h3>
+        <p>
+          A replicant blade runner discovers a secret that could plunge what’s
+          left of society into chaos.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>2017-10-3</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>Denis Villeneuve</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>Ryan Gosling, Harrison Ford, Ana de Armas, Sylvia Hoeks</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/gCcx85zbxz4?si=NFZ_E2xbjMhALUtH"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
+      </div>
     </div>
 
     <div class="posterCont">
-        <div class="posterInfo">
-            <img src="resources_html/batman.png" alt="The Batman Image" width="280" height="360">
-            <h3>The Batman</h3>
-            <p>In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>2022-3-4</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>Matt Reeves</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Robert Pattinson, Zoë Kravitz, Paul Dano</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/mqqft2x_Aa4?si=iwvk00ksEw3qBKiD" target="_blank">Trailer</a></h4>
-            </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/batman.png"
+          alt="The Batman Image"
+          width="280"
+          height="360"
+        />
+        <h3>The Batman</h3>
+        <p>
+          In his second year of fighting crime, Batman uncovers corruption in
+          Gotham City that connects to his own family.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>2022-3-4</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>Matt Reeves</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>Robert Pattinson, Zoë Kravitz, Paul Dano</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/mqqft2x_Aa4?si=iwvk00ksEw3qBKiD"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
-        <div class="posterInfo">
-            <img src="resources_html/rocky.png" alt="Rocky Image" width="280" height="360">
-            <h3>Rocky</h3>
-            <p>An underdog boxer gets a shot at the world heavyweight championship, facing personal and professional challenges.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>1976-11-20</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>John G. Avildsen</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Sylvester Stallone, Talia Shire, Burt Yong</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/3VUblDwa648?si=89QwysM70oB8PrWn" target="_blank">Trailer</a></h4>
-            </div>    
+      </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/rocky.png"
+          alt="Rocky Image"
+          width="280"
+          height="360"
+        />
+        <h3>Rocky</h3>
+        <p>
+          An underdog boxer gets a shot at the world heavyweight championship,
+          facing personal and professional challenges.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>1976-11-20</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>John G. Avildsen</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>Sylvester Stallone, Talia Shire, Burt Yong</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/3VUblDwa648?si=89QwysM70oB8PrWn"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
-        <div class="posterInfo">
-            <img src="resources_html/pacificrim.png" alt="Pacific Rim Image" width="280" height="360">
-            <h3>Pacific Rim</h3>
-            <p>Jaeger pilots fight colossal sea monsters to save humanity from extinction.</p>
-            <table class="movie-details">
-                <tbody>
-                    <tr>
-                        <th>Release Date</th>
-                        <td>2013-7-12</td>
-                    </tr>
-                    <tr>
-                        <th>Director</th>
-                        <td>Guillermo del Toro</td>
-                    </tr>
-                    <tr>
-                        <th>Cast</th>
-                        <td>Charlie Hunnam, Idris Elba, Rinko Kikuchi, Charlie Day</td>
-                    </tr>
-                </tbody>
-            </table>
-            <div class="linkBoxCont">
-                <h4><a href="https://youtu.be/5guMumPFBag?si=MRgAOds_YEDXQpUm" target="_blank">Trailer</a></h4>
-            </div>
+      </div>
+      <div class="posterInfo">
+        <img
+          src="resources_html/pacificrim.png"
+          alt="Pacific Rim Image"
+          width="280"
+          height="360"
+        />
+        <h3>Pacific Rim</h3>
+        <p>
+          Jaeger pilots fight colossal sea monsters to save humanity from
+          extinction.
+        </p>
+        <table class="movie-details">
+          <tbody>
+            <tr>
+              <th>Release Date</th>
+              <td>2013-7-12</td>
+            </tr>
+            <tr>
+              <th>Director</th>
+              <td>Guillermo del Toro</td>
+            </tr>
+            <tr>
+              <th>Cast</th>
+              <td>Charlie Hunnam, Idris Elba, Rinko Kikuchi, Charlie Day</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="linkBoxCont">
+          <h4>
+            <a
+              href="https://youtu.be/5guMumPFBag?si=MRgAOds_YEDXQpUm"
+              target="_blank"
+              >Trailer</a
+            >
+          </h4>
         </div>
+      </div>
     </div>
-    <div class="userInfoCont-row">
+    <div class="contRow">
+      <div class="userInfoCont-row">
         <div class="userInfoCont">
-            <form action="" method="get" class="User Data">
-                <div class="User Data">
-                    <label for="name">Enter your Name here:</label>
-                    <input type="text" name="name" id="name" required>
-                </div>  
-                <div class="form-example">
-                    <label for="email">Enter your email:</label>
-                    <input type="email" name="email" id="email" required>
-                </div>
-                <div class="form-example">
-                    <input type="submit" value="Send">
-                </div> 
-            </form> 
+            <h4>If you want to rent a movie, please Contact us</h4>
+          <form action="" method="get" class="User Data">
+            <div class="User Data">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required />
+            </div>
+            <div class="form-example">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div class="form-example">
+              <input type="submit" value="Send" />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
-
-
-
-
-

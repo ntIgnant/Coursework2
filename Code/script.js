@@ -64,5 +64,23 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(`Genre: ${genre}`);
         console.log("---");
     });
+
+    const copyButton = document.createElement('button');
+    copyButton.textContent = 'Copy Movie Information';
+    copyButton.addEventListener('click', () => {
+
+        navigator.clipboard.writeText(xmlString)
+            .then(() => {
+                console.log('Movie information Copied (XML format)');
+                alert('Movie information Copied (XML format)');
+            })
+            .catch(err => {
+                console.error('Failed to copy movie information (XML info)', err);
+                alert('Failed to copy movie information (XML info)');
+            });
+    });
+
+    const copyInfoDiv = document.querySelector('.copyInfo');
+    copyInfoDiv.appendChild(copyButton);
 });
 
