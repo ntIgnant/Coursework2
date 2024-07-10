@@ -1,0 +1,50 @@
+66e4253 - wangz140, Wed Jul 10 22:42:15 2024 +0200 : Changelog file edit
+17a450c - wangz140, Wed Jul 10 22:26:21 2024 +0200 : Conclusion part added
+1bf88e5 - wangz140, Wed Jul 10 22:08:11 2024 +0200 : Reference part deleted
+caac619 - wangz140, Wed Jul 10 22:04:12 2024 +0200 : Findings part adjusted
+532a88d - wangz140, Wed Jul 10 21:56:38 2024 +0200 : Findings part added
+417bcbb - ntIgnant, Wed Jul 10 21:51:12 2024 +0200 : UPDATED | Fetch API functionality added
+0a70b31 - wangz140, Wed Jul 10 16:10:12 2024 +0200 : Methods part finished
+8306beb - wangz140, Wed Jul 10 14:34:06 2024 +0200 : Introduction part finished
+65ee613 - ntIgnant, Wed Jul 10 00:26:08 2024 +0200 : UPDATED | css style enhanced and responsive button added with js
+6bc0076 - ntIgnant, Tue Jul 9 21:00:00 2024 +0200 : UPDATED | css style enhanced
+c3d18d7 - ntIgnant, Tue Jul 9 19:42:36 2024 +0200 : UPDATED | html images resized
+d01fa09 - ntIgnant, Tue Jul 9 16:52:11 2024 +0200 : UPDATED | css font changed
+c33eb6a - ntIgnant, Tue Jul 9 14:36:58 2024 +0200 : UPDATED | Font size fixed
+028ba28 - ntIgnant, Mon Jul 8 23:43:07 2024 +0200 : UPDATED | css style enhanced
+e2b2021 - ntIgnant, Mon Jul 8 21:30:03 2024 +0200 : UPDATED | html information added
+ef0b894 - wangz140, Mon Jul 8 17:34:40 2024 +0200 : LaTex file initialized
+ef4922b - wangz140, Mon Jul 8 17:33:32 2024 +0200 : LaTex file initialized
+dee697b - wangz140, Mon Jul 8 17:30:00 2024 +0200 : LaTex initialized
+06a5f55 - ntIgnant, Mon Jul 8 14:43:25 2024 +0200 : UPDATED | new version of html and css enhaced
+25f5f9b - CallMeAlcor, Mon Jul 8 13:44:39 2024 +0200 : new version merged
+4c934ab - CallMeAlcor, Mon Jul 8 13:40:05 2024 +0200 : New version test
+4b670b7 - ntIgnant, Sun Jul 7 20:33:37 2024 +0200 : UPDATED | xml parsing with javascript (info in DOM)
+0f4b0cc - ntIgnant, Sun Jul 7 15:53:23 2024 +0200 : UPDATED | Testing xml fetching with javascript
+f621715 - CallMeAlcor, Sun Jul 7 14:06:01 2024 +0200 : Guten tag
+83ca319 - ntIgnant, Sun Jul 7 14:00:19 2024 +0200 : UPDATED | html structure changed
+b90c030 - ntIgnant, Sun Jul 7 00:23:59 2024 +0200 : UPDATED | Changes made in the css file, colors changed
+06c6ac3 - ntIgnant, Sat Jul 6 23:15:40 2024 +0200 : FIXED | Image path error fixed for html file
+6e16204 - ntIgnant, Sat Jul 6 23:09:44 2024 +0200 : ADDED | normalize.css added to the code folder
+b081f94 - CallMeAlcor, Sat Jul 6 23:03:45 2024 +0200 : adjust on images and text
+0856b19 - CallMeAlcor, Sat Jul 6 19:19:23 2024 +0200 : adjustment on CSS
+611a1b6 - CallMeAlcor, Sat Jul 6 18:48:53 2024 +0200 : setting background and images
+61c1b46 - ntIgnant, Sat Jul 6 18:36:44 2024 +0200 : UPDATED | Images added to the resources folder
+4245086 - ntIgnant, Sat Jul 6 18:08:13 2024 +0200 : Merge branch 'main' of https://github.com/ntIgnant/Coursework2
+dadb0d2 - ntIgnant, Sat Jul 6 18:07:44 2024 +0200 : UPDATED | javasccript file updated, testing xml fetching
+2065e77 - wangz140, Sat Jul 6 16:26:40 2024 +0200 : LaTex file added
+1a3f1f3 - ntIgnant, Sat Jul 6 15:08:14 2024 +0200 : CREATED | resources directiory created for html images
+884e38e - CallMeAlcor, Sat Jul 6 15:00:01 2024 +0200 : UPDATED | html code added
+a12575c - ntIgnant, Sat Jul 6 13:58:59 2024 +0200 : UPDATED | 'Movie Data' added to XML file
+6295109 - ntIgnant, Fri Jul 5 17:38:16 2024 +0200 : IMPROVED | xml file eddited
+4ecd82e - ntIgnant, Fri Jul 5 16:49:34 2024 +0200 : schema.xml file created in Code folder
+eb8c030 - ntIgnant, Fri Jul 5 16:30:19 2024 +0200 : html, css and javascript files added to Code directory
+9d94a63 - wangz140, Fri Jul 5 16:27:03 2024 +0200 : move commitlog to documentation
+90f3926 - wangz140, Fri Jul 5 16:23:07 2024 +0200 : Commit log added
+27b2322 - ntIgnant, Fri Jul 5 16:18:36 2024 +0200 : ORGANIZED | Main folders created
+c299a14 - ntIgnant, Fri Jul 5 16:09:53 2024 +0200 : Test files removed
+8e49d70 - wangz140, Fri Jul 5 16:05:26 2024 +0200 : efe is gay
+a3965f5 - wangz140, Fri Jul 5 15:59:45 2024 +0200 : JS is gay
+49eccf6 - wangz140, Fri Jul 5 15:58:14 2024 +0200 : jiahao.txt created
+b0a8fc2 - CallMeAlcor, Fri Jul 5 14:57:51 2024 +0200 : Test.txt created
+a4b65ab - ntIgnant, Fri Jul 5 14:20:48 2024 +0200 : README file created
