@@ -65,10 +65,10 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("---");
     });
 
+    // Copy to clipboard button
     const copyButton = document.createElement('button');
     copyButton.textContent = 'Copy Movie Information';
     copyButton.addEventListener('click', () => {
-
         navigator.clipboard.writeText(xmlString)
             .then(() => {
                 console.log('Movie information Copied (XML format)');
@@ -80,7 +80,45 @@ document.addEventListener('DOMContentLoaded', () => {
             });
     });
 
+
     const copyInfoDiv = document.querySelector('.copyInfo');
     copyInfoDiv.appendChild(copyButton);
+
+
+    //  // Fetch API  functionality
+
+    // const form = document.getElementById('userDataForm');
+    // form.addEventListener('submit', (event) => {
+    //     event.preventDefault();
+
+
+    //     const formData = new FormData(form);
+    //     const name = formData.get('name');
+    //     const email = formData.get('email');
+
+    //     console.log(`Name: ${name}`);
+    //     console.log(`Email: ${email}`);
+
+    //     fetch('https://example.com/api/submit', {
+    //         method: 'POST',
+    //         headers: {
+    //             'Content-Type': 'application/xml',
+    //         },
+    //         body: xmlString,
+    //     })
+    //     .then(response => {
+    //         if (response.ok) {
+    //             console.log('User information submitted');
+    //             alert('User information submitted');
+    //         } else {
+    //             console.error('Could't submit user information');
+    //             alert('Could't submit user information');
+    //         }
+    //     })
+    //     .catch(err => {
+    //         console.error('Could't submit user information', err);
+    //         alert('Could't submit user information');
+    //     });
+    // });
 });
 
