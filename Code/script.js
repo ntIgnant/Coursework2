@@ -85,40 +85,40 @@ document.addEventListener('DOMContentLoaded', () => {
     copyInfoDiv.appendChild(copyButton);
 
 
-    //  // Fetch API  functionality
+     // Fetch API  functionality
 
-    // const form = document.getElementById('userDataForm');
-    // form.addEventListener('submit', (event) => {
-    //     event.preventDefault();
+    const form = document.getElementById('userDataForm');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
 
 
-    //     const formData = new FormData(form);
-    //     const name = formData.get('name');
-    //     const email = formData.get('email');
+        const formData = new FormData(form);
+        const name = formData.get('name');
+        const email = formData.get('email');
 
-    //     console.log(`Name: ${name}`);
-    //     console.log(`Email: ${email}`);
+        console.log(`Name: ${name}`);
+        console.log(`Email: ${email}`);
 
-    //     fetch('https://example.com/api/submit', {
-    //         method: 'POST',
-    //         headers: {
-    //             'Content-Type': 'application/xml',
-    //         },
-    //         body: xmlString,
-    //     })
-    //     .then(response => {
-    //         if (response.ok) {
-    //             console.log('User information submitted');
-    //             alert('User information submitted');
-    //         } else {
-    //             console.error('Could't submit user information');
-    //             alert('Could't submit user information');
-    //         }
-    //     })
-    //     .catch(err => {
-    //         console.error('Could't submit user information', err);
-    //         alert('Could't submit user information');
-    //     });
-    // });
+        fetch('https://example.com/api/submit', { 
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/xml',
+            },
+            body: xmlString,
+        })
+        .then(response => {
+            if (response.ok) {
+                console.log('User information submitted');
+                alert('User information submitted');
+            } else {
+                console.error('Could not submit user information');
+                alert('Could not submit user information');
+            }
+        })
+        .catch(err => {
+            console.error('Could not submit user information', err);
+            alert('Could not submit user information');
+        });
+    });
 });
 
